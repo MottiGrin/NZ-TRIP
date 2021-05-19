@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<Head>
+	<meta charset="UTF-8">
+	<title>MY STORY</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+		body {font-family: 'Niconne', cursive;} 
+		h1,h2,h3	{font-family: 'Niconne', cursive; }
+		p	{text-align: center;	}
+	</style>
+	</Head>
+	
+	<body>
+
+	<!-- HOME tab Sits on left top corner) -->
+	<div class="w3-top w3-bar">
+	<a href="#home"	 	class="w3-bar-item w3-button w3-padding w3-orange w3-margin-right ">HOME</a>
+	<a href="#contact"  class="w3-bar-item w3-button w3-padding w3-orange ">CONTACT</a>
+		
+		<!-- Create  top corner) -->
+		<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+		<button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-panel w3-hover-red w3-red w3-large">Close &times;</button>
+		
+		<a href="auckland.html" 			class="w3-bar-item w3-button w3-hover-black">		AUCKLAND</a>
+		<a href="coromondel peninsula.html"	class="w3-bar-item w3-button w3-hover-pale-red">	COROMONDEL PENINSULA</a>
+		<a href="franz josef glacier.html"	class="w3-bar-item w3-button w3-hover-pink">		FRANZ JOSEF GLACIER</a>
+		<a href="funny.html"				class="w3-bar-item w3-button w3-hover-purple">		FUNNY</a>
+		<a href="hanmer springs.html" 		class="w3-bar-item w3-button w3-hover-blue">		HANMER SPRINGS</a>
+		<a href="local animals.html" 		class="w3-bar-item w3-button w3-hover-cyan">		LOCAL ANIMALS</a>
+		<a href="local transportation.html" class="w3-bar-item w3-button w3-hover-teal">		LOCAL TRANSPORTATION</a>
+		<a href="post cards.html" 			class="w3-bar-item w3-button w3-hover-light-green">	POST CARDS</a>
+		<a href="rotorua.html" 				class="w3-bar-item w3-button w3-hover-yellow">		ROTORUA</a>
+		<a href="waterfalls.html" 			class="w3-bar-item w3-button w3-hover-orange">		WATERFALLS</a>
+		
+		</div>
+
+		<div class="w3-white">
+		<button class="w3-button w3-orange w3-large w3-right" onclick="openRightMenu()">&#9776;</button>
+		</div>
+	</div>
+
+
+	<!-- Start Content -->
+	<div id="home"">
+	</div>
+	
+	<!-- TITLE plus Image -->
+	<div class="w3-padding-top-32">
+	<h2 class="w3-center">BACK TO THE ISLAND</h2>
+		<img src="images/elements01.jpg" class=" w3-image w3-opacity-min" alt="NZ BEACH" style="width:100%">
+	</div>
+		
+
+	<div class="w3-container w3-text-grey">
+	<p>Back then in 2006, I went to explore the very far and beautiful New Zealand. Once I landed at Christchurch Airport, I felt like I never felt before. Floods of Emotional excitements which result with Happiness, very high e	nergy, a bit high mentally, such an amazing feelings which kept during the whole trip.
+		My vanny took me all around the South and North Islands. I was loaded with heaps of cherished memories. That's my photography Journey.</p>
+	</div>
+	
+	<!-- Contact -->
+	<div id="contact" class="w3-container w3-center w3-padding-32">
+	<h1>Contact</h1>
+
+	<h2 class="w3-wide"></h2>
+	MOTTI GRINSHPAN<br>
+	Phone: 050 6564856<br>
+	Email: Tommgrin@gmail.com<br>
+	</div>  
+
+	<!-- End Content -->
+	<script>
+	function openRightMenu() {
+	document.getElementById("rightMenu").style.display = "block";
+	}
+
+	function closeRightMenu() {
+	document.getElementById("rightMenu").style.display = "none";
+	}
+	</script>
+
+</body>
+</html> 
