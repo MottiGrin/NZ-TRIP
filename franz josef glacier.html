@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<Head>
+	<title>FRANZ JOSEF GLACIER</title>
 	<meta charset="UTF-8">
-	<title>WATERFALLS</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -11,7 +11,6 @@
 	body,html	{height: 100%; margin: 0; font-size: 14px;  	}
 	.mySlides {display: none}
 
-	
 	.slideshow-container {
 	max-width: 1000px;
 	position: relative;
@@ -102,7 +101,7 @@
 	<body>
 		
 	<div class="w3-top w3-bar">
-	<a href="index.html"	 	class="w3-bar-item w3-button w3-padding w3-purple w3-margin-right ">HOME</a>	
+	<a href="index.html"	 	class="w3-bar-item w3-button w3-padding w3-deep-purple w3-margin-right ">HOME</a> 	
 		 
 			<!-- Create  top corner) -->
 			<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
@@ -110,6 +109,7 @@
 			
 			<a href="auckland.html" 			class="w3-bar-item w3-button w3-hover-pink">		AUCKLAND</a>
 			<a href="coromondel peninsula.html"	class="w3-bar-item w3-button w3-hover-purple">		COROMONDEL PENINSULA</a>
+			<a href="franz josef glacier.html"	class="w3-bar-item w3-button w3-hover-deep-purple">	FRANZ JOSEF GLACIER</a>
 			<a href="funny.html"				class="w3-bar-item w3-button w3-hover-indigo">		FUNNY</a>
 			<a href="hanmer springs.html" 		class="w3-bar-item w3-button w3-hover-blue">		HANMER SPRINGS</a>
 			<a href="local animals.html" 		class="w3-bar-item w3-button w3-hover-cyan">		LOCAL ANIMALS</a>
@@ -118,9 +118,9 @@
 			<a href="rotorua.html" 				class="w3-bar-item w3-button w3-hover-yellow">		ROTORUA</a>
 			<a href="waterfalls.html" 			class="w3-bar-item w3-button w3-hover-orange">		WATERFALLS</a>
 			</div>
-		
+
 			<div class="w3-white">
-			<button class="w3-button w3-purple w3-large w3-right" onclick="openRightMenu()">&#9776;</button>
+			<button class="w3-button w3-deep-purple w3-large w3-right" onclick="openRightMenu()">&#9776;</button>
 			</div>
 	</div>
 	
@@ -129,35 +129,30 @@
 
 	<div class="slideshow-container">
 		<div class="mySlides fade center">
-		<div class="numbertext">1 / 6 </div>
-		<img width="800" height="600" src="images/waterfalls01.jpg" style="width:100%">
+		<div class="numbertext">1 / 5 - Franz Josef Glacier Stairs</div>
+		<img src="images/franz josef01.jpg" style="width:100%">
 		</div>
 
 		<div class="mySlides fade center">
-		<div class="numbertext">2 / 6 </div>
-		<img src="images/waterfalls02.jpg" style="width:100%">
+		<div class="numbertext">2 / 5 - Franz Josef Glacier Walk Through1</div>
+		<img width="800" height="600" src="images/franz josef02.jpg" style="width:100%">
 		</div>
 
 		<div class="mySlides fade center">
-		<div class="numbertext">3 / 6 </div>
-		<img width="800" height="600" src="images/waterfalls03.jpg" style="width:100%">
+		<div class="numbertext">3 / 5 - Franz Josef Glacier Walk Through2</div>
+		<img width="800" height="600" src="images/franz josef03.jpg" style="width:100%">
 		</div>
 
 		<div class="mySlides fade center">
-		<div class="numbertext">4 / 6 </div>
-		<img src="images/waterfalls04.jpg" style="width:100%">
+		<div class="numbertext">4 / 5 - Franz Josef Glacier Walk Through3</div>
+		<img width="800" height="600" src="images/franz josef04.jpg" style="width:100%">
 		</div>
 
 		<div class="mySlides fade center">
-		<div class="numbertext">5 / 6 </div>
-		<img width="800" height="600" src="images/waterfalls05.jpg" style="width:100%">
+		<div class="numbertext">5 / 5 - Franz Josef Glacier Last Frame</div>
+		<img width="800" height="600" src="images/franz josef05.jpg" style="width:100%"> 
 		</div>
-
-		<div class="mySlides fade center">
-		<div class="numbertext">6 / 6 </div>
-		<img width="800" height="600" src="images/waterfalls06.jpg" style="width:100%">
-		</div>
-									
+	
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
@@ -193,9 +188,8 @@
 		slides[i].style.display = "none";  
 		}
 		
-		
+		for (i = 0; i < dots.length; i++)
 		slides[slideIndex-1].style.display = "block";  
-		
 		}
 	</script>
 	</body>

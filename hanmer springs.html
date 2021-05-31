@@ -110,7 +110,6 @@
 			
 			<a href="auckland.html" 			class="w3-bar-item w3-button w3-hover-pink">		AUCKLAND</a>
 			<a href="coromondel peninsula.html"	class="w3-bar-item w3-button w3-hover-purple">		COROMONDEL PENINSULA</a>
-			<a href="franz josef glacier.html"	class="w3-bar-item w3-button w3-hover-deep-purple">	FRANZ JOSEF GLACIER</a>
 			<a href="funny.html"				class="w3-bar-item w3-button w3-hover-indigo">		FUNNY</a>
 			<a href="hanmer springs.html" 		class="w3-bar-item w3-button w3-hover-blue">		HANMER SPRINGS</a>
 			<a href="local animals.html" 		class="w3-bar-item w3-button w3-hover-cyan">		LOCAL ANIMALS</a>
@@ -199,18 +198,14 @@
 		function showSlides(n) {
 		var i;
 		var slides = document.getElementsByClassName("mySlides");
-		var dots = document.getElementsByClassName("dot");
 		if (n > slides.length) {slideIndex = 1}    
 		if (n < 1) {slideIndex = slides.length}
 		for (i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";  
 		}
 		
-		for (i = 0; i < dots.length; i++) {
-		dots[i].className = dots[i].className.replace(" active", "");
-		}
+		for (i = 0; i < dots.length; i++)
 		slides[slideIndex-1].style.display = "block";  
-		dots[slideIndex-1].className += " active";
 		}
 	</script>
 	</body>
