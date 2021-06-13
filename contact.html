@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<Head>
+	<meta charset="UTF-8">
+		<title>Motti's Profile</title>
+		<link rel="stylesheet" href="contact.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	<!-- Add icon library to style linkdn button -->
+		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> 		<!-- Make LinkedIn Profile Badge -->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">												<!-- using W3.CSS in the web site -->
+
+		<link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+		<link rel="icon" type="images" sizes="32x32" href="Images/favicon-32x32.png">
+		<link rel="icon" type="images" sizes="16x16" href="Images/favicon-16x16.png">
+		
+		
+		<style>
+			.fa {
+			padding: 10px;
+			font-size: 15px;
+			width: 30px;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 2px;
+			border-radius: 50%;
+			}
+
+			.fa:hover {
+			opacity: 0.7;
+			}
+
+			.fa-linkedin {
+			background: #007bb5;
+			color: white;
+			}		
+			.fa-google {
+			background: #dd4b39;
+			color: white;
+			}
+		
+			.fa-phone-square {
+			background: #008000;
+			color: white;
+			}
+			</style>
+		
+		
+</head>
+
+<Body>	
+		<div class="w3-top w3-bar">
+		<a href="index.html"	 	class="w3-bar-item w3-button w3-padding w3-red w3-margin-right ">HOME</a> 
+		<a href="contact.html"	 	class="w3-bar-item w3-button w3-padding w3-red w3-margin-right ">CONTACT</a>
+	
+			<!-- Create  top corner) -->
+			<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+			<button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-panel w3-hover-green w3-black w3-large">Close &times;</button>
+			
+			<a href="auckland.html" 			class="w3-bar-item w3-button w3-hover-red">		AUCKLAND</a>
+			<a href="coromondel peninsula.html"	class="w3-bar-item w3-button w3-hover-purple">	COROMONDEL PENINSULA</a>
+			<a href="funny.html"				class="w3-bar-item w3-button w3-hover-green">	FUNNY</a>
+			<a href="hanmer springs.html" 		class="w3-bar-item w3-button w3-hover-blue">	HANMER SPRINGS</a>
+			<a href="local animals.html" 		class="w3-bar-item w3-button w3-hover-cyan">	LOCAL ANIMALS</a>
+			<a href="local transportation.html" class="w3-bar-item w3-button w3-hover-teal">	LOCAL TRANSPORTATION</a>
+			<a href="post cards.html" 			class="w3-bar-item w3-button w3-hover-khaki">	POST CARDS</a>
+			<a href="rotorua.html" 				class="w3-bar-item w3-button w3-hover-yellow">	ROTORUA</a>
+			<a href="waterfalls.html" 			class="w3-bar-item w3-button w3-hover-pale-red">WATERFALLS</a>
+			</div>
+		
+			<div class="w3-white">
+			<button class="w3-button w3-red w3-large w3-right" onclick="openRightMenu()">&#9776;</button>
+			</div>
+	</div>
+		<div class="container">
+		<h1>Motti Grinshpan</h1>
+		<h3>Personal Profile</h3>
+		                    
+		<div class="container listFlex des">
+		Catch me on <a href="https://il.linkedin.com/in/motti-grinshpan-a407721b9?trk=profile-badge" class="fa fa-linkedin"></a></br>
+		Email me  	<a href="mailto:tommgrin@gmail.com" class="fa fa-google"></a>	 </br>
+		Call me on  <a href="tel:+972506564856" 		class='fa fa-phone-square'></a>
+		</div>
+		
+		
+		</br><image src = profile_photo.jpg></image>
+		
+		<h4>About Me</h4>
+		<p>Hi, My name is Motti Grinshpan. I'm currently studying QA. I've completed Electrial Practical Engineering study. I'm always curious with learning new things.</p>
+		</div>
+		
+		<div class="listFlex">
+		<div>
+		<ol><h4>Skills</h4>
+		<li>HTML, CSS, SQL</li>
+		<li>Notepad++, DevTools</li>
+		<li>Technical common sense</li>
+		</ol>
+		</div>
+    
+        <div>
+		<ol><h4>Work experience</h4>
+		<li>Cellular technician</li>
+		<li>End products tester</li>
+		<li>Team Leader - Sorting out products line issues</li>
+		</ol>
+		</div>
+		</div>
+		
+		<script>
+		function openRightMenu() {
+		document.getElementById("rightMenu").style.display = "block";
+		}
+
+		function closeRightMenu() {
+		document.getElementById("rightMenu").style.display = "none";
+		}
+		</script>
+		
+</Body>
+</html>
+  
