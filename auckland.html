@@ -25,7 +25,7 @@
 	width: auto;
 	padding: 6px;
 	margin-top: -42px;
-	color: pink;
+	color: red;
 	font-weight: bold;
 	font-size: 55px;
 	transition: 0.6s ease;
@@ -33,6 +33,7 @@
 	user-select: none; 	 
 	}
 
+	
 	.next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
@@ -45,15 +46,10 @@
 
 	
 	.numbertext {
-	color: Black;
+	color: red;
 	padding: 70px 0px 10px 0px;
 	text-align: center;
-	}
-
-	.numbertext1 {
-	color: white;
-	padding: 28px 12px;
-	text-align: center;
+	
 	}
 
 	/* Fading animation once photo change */
@@ -78,7 +74,7 @@
 	@media only screen and (max-width: 300px) {
 	.prev, .next,.text {font-size: 11px}
 	}
-
+	
 	.nav {	display: flex;  } /* strech display from 1 end to another end*/
 	
 	.nav a {					/* inside attribute "a" frame will have space 10up 13.5 left/right and writing will be centerzied*/
@@ -100,25 +96,26 @@
 	<body>
 		
 	<div class="w3-top w3-bar">
-	<a href="index.html"	 	class="w3-bar-item w3-button w3-padding w3-pink w3-margin-right ">HOME</a> 
+	<a href="index.html"	 	class="w3-bar-item w3-button w3-padding w3-red w3-margin-right ">HOME</a> 
+	<a href="contact.html"	 	class="w3-bar-item w3-button w3-padding w3-red w3-margin-right ">CONTACT</a>
 	
 			<!-- Create  top corner) -->
 			<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
-			<button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-panel w3-hover-red w3-red w3-large">Close &times;</button>
+			<button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-panel w3-hover-gray w3-black w3-large">Close &times;</button>
 			
-			<a href="auckland.html" 			class="w3-bar-item w3-button w3-hover-pink">		AUCKLAND</a>
-			<a href="coromondel peninsula.html"	class="w3-bar-item w3-button w3-hover-purple">		COROMONDEL PENINSULA</a>
-			<a href="funny.html"				class="w3-bar-item w3-button w3-hover-indigo">		FUNNY</a>
-			<a href="hanmer springs.html" 		class="w3-bar-item w3-button w3-hover-blue">		HANMER SPRINGS</a>
-			<a href="local animals.html" 		class="w3-bar-item w3-button w3-hover-cyan">		LOCAL ANIMALS</a>
-			<a href="local transportation.html" class="w3-bar-item w3-button w3-hover-teal">		LOCAL TRANSPORTATION</a>
-			<a href="post cards.html" 			class="w3-bar-item w3-button w3-hover-light-green">	POST CARDS</a>
-			<a href="rotorua.html" 				class="w3-bar-item w3-button w3-hover-yellow">		ROTORUA</a>
-			<a href="waterfalls.html" 			class="w3-bar-item w3-button w3-hover-orange">		WATERFALLS</a>
+			<a href="auckland.html" 			class="w3-bar-item w3-button w3-hover-red">		AUCKLAND</a>
+			<a href="coromondel peninsula.html"	class="w3-bar-item w3-button w3-hover-purple">	COROMONDEL PENINSULA</a>
+			<a href="funny.html"				class="w3-bar-item w3-button w3-hover-green">	FUNNY</a>
+			<a href="hanmer springs.html" 		class="w3-bar-item w3-button w3-hover-blue">	HANMER SPRINGS</a>
+			<a href="local animals.html" 		class="w3-bar-item w3-button w3-hover-cyan">	LOCAL ANIMALS</a>
+			<a href="local transportation.html" class="w3-bar-item w3-button w3-hover-teal">	LOCAL TRANSPORTATION</a>
+			<a href="post cards.html" 			class="w3-bar-item w3-button w3-hover-khaki">	POST CARDS</a>
+			<a href="rotorua.html" 				class="w3-bar-item w3-button w3-hover-yellow">	ROTORUA</a>
+			<a href="waterfalls.html" 			class="w3-bar-item w3-button w3-hover-brown">WATERFALLS</a>
 			</div>
 		
 			<div class="w3-white">
-			<button class="w3-button w3-pink w3-large w3-right" onclick="openRightMenu()">&#9776;</button>
+			<button class="w3-button w3-red w3-large w3-right" onclick="openRightMenu()">&#9776;</button>
 			</div>
 	</div>
 	
@@ -126,7 +123,7 @@
 	<div id="home""> </div>
 	
 	<div class="slideshow-container"> 
-		<div class="mySlides fade center"> 
+		<div class="mySlides fade center "> 
 		<div class="numbertext">1 / 7 - Michael Joseph Savage Memorial</div>
 		<img src="images/auckland01.jpg" style="width:100%">
 		</div>

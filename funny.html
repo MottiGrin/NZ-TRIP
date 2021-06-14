@@ -10,7 +10,8 @@
 
 	body,html	{height: 100%; margin: 0; font-size: 14px;  	}
 	.mySlides {display: none}
-		
+
+	
 	.slideshow-container {
 	max-width: 1000px;
 	position: relative;
@@ -25,7 +26,7 @@
 	width: auto;
 	padding: 6px;
 	margin-top: -42px;
-	color: red;
+	color: green;
 	font-weight: bold;
 	font-size: 55px;
 	transition: 0.6s ease;
@@ -33,6 +34,7 @@
 	user-select: none; 	 
 	}
 
+	
 	.next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
@@ -45,14 +47,8 @@
 
 	
 	.numbertext {
-	color: Black;
+	color: green;
 	padding: 70px 0px 10px 0px;
-	text-align: center;
-	}
-
-	.numbertext1 {
-	color: white;
-	padding: 28px 12px;
 	text-align: center;
 	}
 
@@ -87,7 +83,7 @@
 		text-align: center;
     	}
 
-	.nav a:hover {		background-color: orange; color: white; } /* those colors will appear, once you put mouse on A attribute */
+	.nav a:hover {		background-color: green; color: white; } /* those colors will appear, once you put mouse on A attribute */
 		
 	.center {
 	display: block;
@@ -100,25 +96,26 @@
 	<body>
 		
 	<div class="w3-top w3-bar">
-	<a href="index.html"	 	class="w3-bar-item w3-button w3-padding w3-orange w3-margin-right ">HOME</a>	
+	<a href="index.html"	 	class="w3-bar-item w3-button w3-padding w3-green w3-margin-right ">HOME</a>	
+	<a href="contact.html"	 	class="w3-bar-item w3-button w3-padding w3-green w3-margin-right ">CONTACT</a>
 		 
 			<!-- Create  top corner) -->
 			<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
-			<button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-panel w3-hover-red w3-red w3-large">Close &times;</button>
+			<button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-panel w3-hover-gray w3-black w3-large">Close &times;</button>
 			
-			<a href="auckland.html" 			class="w3-bar-item w3-button w3-hover-pink">		AUCKLAND</a>
-			<a href="coromondel peninsula.html"	class="w3-bar-item w3-button w3-hover-purple">		COROMONDEL PENINSULA</a>
-			<a href="funny.html"				class="w3-bar-item w3-button w3-hover-indigo">		FUNNY</a>
-			<a href="hanmer springs.html" 		class="w3-bar-item w3-button w3-hover-blue">		HANMER SPRINGS</a>
-			<a href="local animals.html" 		class="w3-bar-item w3-button w3-hover-cyan">		LOCAL ANIMALS</a>
-			<a href="local transportation.html" class="w3-bar-item w3-button w3-hover-teal">		LOCAL TRANSPORTATION</a>
-			<a href="post cards.html" 			class="w3-bar-item w3-button w3-hover-light-green">	POST CARDS</a>
-			<a href="rotorua.html" 				class="w3-bar-item w3-button w3-hover-yellow">		ROTORUA</a>
-			<a href="waterfalls.html" 			class="w3-bar-item w3-button w3-hover-orange">		WATERFALLS</a>
+			<a href="auckland.html" 			class="w3-bar-item w3-button w3-hover-red">		AUCKLAND</a>
+			<a href="coromondel peninsula.html"	class="w3-bar-item w3-button w3-hover-purple">	COROMONDEL PENINSULA</a>
+			<a href="funny.html"				class="w3-bar-item w3-button w3-hover-green">	FUNNY</a>
+			<a href="hanmer springs.html" 		class="w3-bar-item w3-button w3-hover-blue">	HANMER SPRINGS</a>
+			<a href="local animals.html" 		class="w3-bar-item w3-button w3-hover-cyan">	LOCAL ANIMALS</a>
+			<a href="local transportation.html" class="w3-bar-item w3-button w3-hover-teal">	LOCAL TRANSPORTATION</a>
+			<a href="post cards.html" 			class="w3-bar-item w3-button w3-hover-khaki">	POST CARDS</a>
+			<a href="rotorua.html" 				class="w3-bar-item w3-button w3-hover-yellow">	ROTORUA</a>
+			<a href="waterfalls.html" 			class="w3-bar-item w3-button w3-hover-brown">WATERFALLS</a>
 			</div>
 			
 			<div class="w3-white">
-			<button class="w3-button w3-pale-rednge w3-large w3-right" onclick="openRightMenu()">&#9776;</button>
+			<button class="w3-button w3-green w3-large w3-right" onclick="openRightMenu()">&#9776;</button>
 			</div>
 	</div>
 	
@@ -170,7 +167,8 @@
 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
 	<br>
-	
+
+
 	<script>
 		function openRightMenu() {
 		document.getElementById("rightMenu").style.display = "block";
